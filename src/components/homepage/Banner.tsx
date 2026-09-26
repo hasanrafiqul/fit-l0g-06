@@ -11,7 +11,7 @@ const Banner = () => {
           {/* Left Content */}
           <div className="space-y-6">
 
-            <h2 className="text-2xl font-black uppercase leading-[0.95] text-white md:text-6xl">
+            <h2 className="text-2xl font-black uppercase leading-[0.95] text-white md:text-5xl">
               Train With Intent.Log 
               <br />
               Every Set.
