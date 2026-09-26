@@ -366,7 +366,7 @@ const Navbar = () => {
             href="/my-plan"
             className="flex items-center gap-1 text-xs sm:gap-2 sm:text-sm"
           >
-            <span className="hidden text-gray-300 sm:inline">
+            <span className=" text-gray-300">
               Plan
             </span>
 
@@ -380,13 +380,13 @@ const Navbar = () => {
             href="/my-plan"
             className="flex items-center gap-1 text-xs sm:gap-2 sm:text-sm"
           >
-            <span className="hidden text-gray-400 sm:inline">
+            <span className=" text-gray-400">
               Saved
             </span>
 
-            <span className="flex h-5 min-w-5 items-center justify-center rounded-full border border-gray-700 px-1 text-[10px] text-gray-300 sm:text-xs">
-              {savedWorkouts.length}
-            </span>
+            <span className="flex h-5 min-w-5 shrink-0 items-center justify-center rounded-full border border-gray-700 px-1 text-[10px] text-white sm:text-xs">
+  {savedWorkouts.length}
+</span>
           </Link>
 
         </div>
