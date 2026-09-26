@@ -16,7 +16,7 @@ interface Workout {
   instructions: string[];
 }
 
-const API_URL = "https://api.abcz.workers.dev/api/fitlog";
+const API_URL = "https://api.api-store.workers.dev/api/fitlog";
 
 const Library = async () => {
   const response = await fetch(API_URL);
